@@ -5,8 +5,8 @@ def run_guessing_game
     if user_i == "exit"
       puts "Goodbye!"
     elsif user_i.to_i == c_num
-      puts "You guessed the correct number!"
+      "You guessed the correct number!"
     elsif user_i.to_i != c_num
-      puts "The computer guessed #{c_num}."
+      "The computer guessed #{c_num}."
     end
 end
