@@ -7,6 +7,6 @@ def run_guessing_game
     elsif user_i.to_i == c_num
       puts "You guessed the correct number!"
     else
-      puts "The computer guessed #{c_num}"
+      puts "The computer guessed #{c_num}."
     end
 end
